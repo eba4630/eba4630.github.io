@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/11/15/hello-world/"/>
+    <url>/2022/11/15/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h1>初次使用mrkdown练习语法</h1><h2>标题语法</h2><br>`sudo mc`<br><h2>有序列表</h2><ol><li>first</li><li>second</li><li>third</li><li>four</li></ol><h2>段落语法</h2><p>I really like using Markdown.</p><h2>换行语法</h2><p>This is the first line.<br><p>这是第一行。<br></>And this is the second line.</p><p>这是第二行</><p>#markText的使用</p><ol><li><p>n级标题<br>n个#代表n级标题</p><p>#hello</p></li><li><p>字体格式<br>标粗：CTRL+B<br>标斜：CTRL+I<br>下划线：CTRL+U<br> 高亮：CTRL+shift+H<br> 删除线：CTRL+D</p></li><li><p>插入代码代码<br>行内代码：CTRL+&#96;</p><p>代码块：&#96;&#96;&#96;</p></li><li><p>插入表格</p><p>CTRL+shift+T</p></li><li><p>插入图像</p><p>CTRL+shift+I</p></li><li><p>超链接</p><p>CTRL+L</p></li><li><p>列表</p><p>使用</p><ol><li><p>有序列表</p><p>backspace可以删除列表书写文本，写完一段之后再使用enter即可继承上一个列表</p><p>CTRL+G</p></li><li><p>无序列表</p><p>CTRL+H</p></li><li><p>任务列表</p><p>CTRL+alt+x</p></li></ol></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
