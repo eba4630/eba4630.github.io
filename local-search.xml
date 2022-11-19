@@ -5,25 +5,49 @@
   
   <entry>
     <title>Terraria Mods Server 配置</title>
-    <link href="/2022/11/18/Terraria-Mods-Server-%E9%85%8D%E7%BD%AE/"/>
-    <url>/2022/11/18/Terraria-Mods-Server-%E9%85%8D%E7%BD%AE/</url>
+    <link href="/tree/master/2022/11/18/Terraria-Mods-Server-%E9%85%8D%E7%BD%AE/"/>
+    <url>/tree/master/2022/11/18/Terraria-Mods-Server-%E9%85%8D%E7%BD%AE/</url>
     
     <content type="html"><![CDATA[<h5 id="1-点击下面链接下载最新的tModLoader-zip"><a href="#1-点击下面链接下载最新的tModLoader-zip" class="headerlink" title="1.点击下面链接下载最新的tModLoader.zip"></a>1.点击下面链接下载最新的tModLoader.zip</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/tModLoader/</span>tModLoader/releases<br></code></pre></td></tr></table></figure><h5 id="2-本地解压上传至服务器"><a href="#2-本地解压上传至服务器" class="headerlink" title="2.本地解压上传至服务器"></a>2.本地解压上传至服务器</h5><h5 id="3-打开文件目录查看dotnet这个文件夹-里面有个6-0-0文件夹，这是需要的dotnet版本，目前里面放着的时window版本，放到服务器可能用不了，需要自行下载一个服务器系统对应版本-放进去并解压"><a href="#3-打开文件目录查看dotnet这个文件夹-里面有个6-0-0文件夹，这是需要的dotnet版本，目前里面放着的时window版本，放到服务器可能用不了，需要自行下载一个服务器系统对应版本-放进去并解压" class="headerlink" title="3.打开文件目录查看dotnet这个文件夹,里面有个6.0.0文件夹，这是需要的dotnet版本，目前里面放着的时window版本，放到服务器可能用不了，需要自行下载一个服务器系统对应版本,放进去并解压"></a>3.打开文件目录查看dotnet这个文件夹,里面有个6.0.0文件夹，这是需要的dotnet版本，目前里面放着的时window版本，放到服务器可能用不了，需要自行下载一个服务器系统对应版本,放进去并解压</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>learn.microsoft.com<span class="hljs-regexp">/zh-cn/</span>dotnet<span class="hljs-regexp">/core/i</span>nstall/linux<br></code></pre></td></tr></table></figure><h5 id="4-上传至服务器"><a href="#4-上传至服务器" class="headerlink" title="4.上传至服务器"></a>4.上传至服务器</h5><h5 id="5-运行目录下的start-tModLoaderServer-sh-x2F-start-tModLoaderServer-bat文件，需要权限"><a href="#5-运行目录下的start-tModLoaderServer-sh-x2F-start-tModLoaderServer-bat文件，需要权限" class="headerlink" title="5.运行目录下的start-tModLoaderServer.sh&#x2F;start-tModLoaderServer.bat文件，需要权限"></a>5.运行目录下的start-tModLoaderServer.sh&#x2F;start-tModLoaderServer.bat文件，需要权限</h5><h5 id="6-选择n"><a href="#6-选择n" class="headerlink" title="6.选择n"></a>6.选择n</h5><h5 id="7-如果发现运行代码不动了，点击一下enter继续操作。"><a href="#7-如果发现运行代码不动了，点击一下enter继续操作。" class="headerlink" title="7.如果发现运行代码不动了，点击一下enter继续操作。"></a>7.如果发现运行代码不动了，点击一下enter继续操作。</h5><h5 id="8-然后根据提示上传mod文件-x2F-地图。"><a href="#8-然后根据提示上传mod文件-x2F-地图。" class="headerlink" title="8.然后根据提示上传mod文件&#x2F;地图。"></a>8.然后根据提示上传mod文件&#x2F;地图。</h5><h5 id="9-位置在"><a href="#9-位置在" class="headerlink" title="9.位置在"></a>9.位置在</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">/root/</span>.local<span class="hljs-regexp">/share/</span>Terraria/tModLoader<br></code></pre></td></tr></table></figure><h5 id="10-steam创意工坊下载的mod可能无法兼容，退回一个版本即可，"><a href="#10-steam创意工坊下载的mod可能无法兼容，退回一个版本即可，" class="headerlink" title="10.steam创意工坊下载的mod可能无法兼容，退回一个版本即可，"></a>10.steam创意工坊下载的mod可能无法兼容，退回一个版本即可，</h5>]]></content>
     
     
+    <categories>
+      
+      <category>Terraria Server</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Terraria Server</tag>
+      
+    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title>时态和语态</title>
-    <link href="/2022/11/17/%E6%97%B6%E6%80%81%E5%92%8C%E8%AF%AD%E6%80%81/"/>
-    <url>/2022/11/17/%E6%97%B6%E6%80%81%E5%92%8C%E8%AF%AD%E6%80%81/</url>
+    <title>一般现在时</title>
+    <link href="/tree/master/2022/11/17/%E6%97%B6%E6%80%81%E5%92%8C%E8%AF%AD%E6%80%81/"/>
+    <url>/tree/master/2022/11/17/%E6%97%B6%E6%80%81%E5%92%8C%E8%AF%AD%E6%80%81/</url>
     
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h3 id="一般现在时"><a href="#一般现在时" class="headerlink" title="一般现在时"></a>一般现在时</h3><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs elixir">强调经常发生的动作<br><br>结构<span class="hljs-symbol">:do/does</span><br><br>主语是三单，动词加s，主语是其他人称，动词用原型<br></code></pre></td></tr></table></figure><p>改一般疑问句</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">He goes <span class="hljs-keyword">to</span> <span class="hljs-keyword">work</span> everyday. 🚩 Does he go <span class="hljs-keyword">to</span> <span class="hljs-keyword">work</span> everyday?<br><br>!带实义动词的句子变为一般疑问句时，实义动词不可放在句首，可以借助<span class="hljs-keyword">do</span>/does来提前<br></code></pre></td></tr></table></figure><p>主将从现</p><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">主句用将来时，从句用一般现在时<br><br>eg:<br><br><span class="hljs-number">1.</span>They will go home <span class="hljs-keyword">for</span> winter vocation <span class="hljs-keyword">as</span> soon <span class="hljs-keyword">as</span> they <span class="hljs-literal">()</span> their exams.<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">A</span>.</span></span>have finished<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">B</span>.</span></span>finish<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">C</span>.</span></span>finished<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">D</span>.</span></span>was finished<br><br>答案：B<br></code></pre></td></tr></table></figure><p>When引导的时间状语从句，主将从现 </p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><span class="hljs-number">2</span><span class="hljs-selector-class">.When</span> the mixture () ,it will give off <span class="hljs-selector-tag">a</span> powerful force.<br><br>A<span class="hljs-selector-class">.will</span> heat<br><br>B<span class="hljs-selector-class">.will</span> be heated<br><br>C<span class="hljs-selector-class">.is</span> heated<br><br>D<span class="hljs-selector-class">.has</span> heated<br><br>答案：C<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs elixir">强调经常发生的动作<br><br>结构<span class="hljs-symbol">:do/does</span><br><br>主语是三单，动词加s，主语是其他人称，动词用原型<br></code></pre></td></tr></table></figure><p>改一般疑问句</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">He goes <span class="hljs-keyword">to</span> <span class="hljs-keyword">work</span> everyday. 🚩 Does he go <span class="hljs-keyword">to</span> <span class="hljs-keyword">work</span> everyday?<br><br>!带实义动词的句子变为一般疑问句时，实义动词不可放在句首，可以借助<span class="hljs-keyword">do</span>/does来提前<br></code></pre></td></tr></table></figure><p>主将从现</p><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">主句用将来时，从句用一般现在时<br><br>eg:<br><br><span class="hljs-number">1.</span>They will go home <span class="hljs-keyword">for</span> winter vocation <span class="hljs-keyword">as</span> soon <span class="hljs-keyword">as</span> they <span class="hljs-literal">()</span> their exams.<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">A</span>.</span></span>have finished<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">B</span>.</span></span>finish<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">C</span>.</span></span>finished<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">D</span>.</span></span>was finished<br><br>答案：B<br></code></pre></td></tr></table></figure><p>When引导的时间状语从句，主将从现 </p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><span class="hljs-number">2</span><span class="hljs-selector-class">.When</span> the mixture () ,it will give off <span class="hljs-selector-tag">a</span> powerful force.<br><br>A<span class="hljs-selector-class">.will</span> heat<br><br>B<span class="hljs-selector-class">.will</span> be heated<br><br>C<span class="hljs-selector-class">.is</span> heated<br><br>D<span class="hljs-selector-class">.has</span> heated<br><br>答案：C<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
+      
+      <category>英语</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>一般现在时</tag>
+      
+    </tags>
     
   </entry>
   
@@ -31,12 +55,24 @@
   
   <entry>
     <title>开mc服务器所需配置</title>
-    <link href="/2022/11/15/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%80%E9%9C%80%E9%85%8D%E7%BD%AE/"/>
-    <url>/2022/11/15/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%80%E9%9C%80%E9%85%8D%E7%BD%AE/</url>
+    <link href="/tree/master/2022/11/15/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%80%E9%9C%80%E9%85%8D%E7%BD%AE/"/>
+    <url>/tree/master/2022/11/15/%E5%BC%80mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%80%E9%9C%80%E9%85%8D%E7%BD%AE/</url>
     
     <content type="html"><![CDATA[<p>git安装</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">yum -y <span class="hljs-keyword">install</span> git<br></code></pre></td></tr></table></figure><p>jenv</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 使用Git下载jenv源码到用户目录下的.jenv文件夹</span><br>git <span class="hljs-built_in">clone</span> https://github.com/jenv/jenv.git ~/.jenv<br><br><span class="hljs-comment"># 环境配置</span><br>vim ~/.bashrc<br><br><span class="hljs-comment"># 加入下列代码</span><br><span class="hljs-built_in">export</span> PATH=<span class="hljs-string">&quot;<span class="hljs-variable">$HOME</span>/.jenv/bin:<span class="hljs-variable">$PATH</span>&quot;</span><br><span class="hljs-built_in">eval</span> <span class="hljs-string">&quot;<span class="hljs-subst">$(jenv init -)</span>&quot;</span><br><br><span class="hljs-comment"># 如果jenv配置失败可以先配置java的环境，变量如下</span><br><span class="hljs-comment"># jdk*</span><br>Java_Home=/root/javaEnvironment/jdk17<span class="hljs-string">&quot;jdk位置&quot;</span><br>CLASSPATH=<span class="hljs-variable">$Java_Home</span>/lib/<br>PATH=<span class="hljs-variable">$PATH</span>:<span class="hljs-variable">$Java_Home</span>/bin/<br><span class="hljs-built_in">export</span> PATH Java_Home CLASSSPATH<br><br><span class="hljs-comment">#重载环境变量</span><br><span class="hljs-built_in">source</span> ~/.bashrc<br><br><br><span class="hljs-comment"># 现在应该可以使用了</span><br></code></pre></td></tr></table></figure><p>jenv具体使用</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-comment"># 新增jdk</span><br>jenv <span class="hljs-built_in">add</span> /root/myEnvironment/ZuluJDK11<br><br><span class="hljs-comment"># 查看可以切换的版本</span><br>jenv versions<br><br><span class="hljs-comment"># 切换jdk</span><br><span class="hljs-comment"># local参数代表当前目录下使用设置的jdk </span><br><span class="hljs-comment"># global全局</span><br>jenv local 11<br><br><span class="hljs-comment"># 删除jdk</span><br>jdk 11 <span class="hljs-built_in">remove</span><br><br></code></pre></td></tr></table></figure><p>使用jenv添加jdk，一个版本为什么有好多标签</p><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs 1c"><span class="hljs-meta"># 只是几个nickname，指向的都是同一个版本。</span><br><span class="hljs-meta"># 你可以用remove命令删除多余nickname。</span><br><span class="hljs-meta"># 比如：添加了jdk17，同时出现17.0和17，这个时候可以用jenv remove 17.0来删除它</span><br></code></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
+      
+      <category>Minecraft Server</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Minecraft Server</tag>
+      
+    </tags>
     
   </entry>
   
@@ -44,11 +80,17 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="/2022/11/15/hello-world/"/>
-    <url>/2022/11/15/hello-world/</url>
+    <link href="/tree/master/2022/11/13/hello-world/"/>
+    <url>/tree/master/2022/11/13/hello-world/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
+    
+    <categories>
+      
+      <category>我的第一篇博客</category>
+      
+    </categories>
     
     
   </entry>
@@ -56,13 +98,25 @@
   
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <title>写博客初尝试</title>
+    <link href="/tree/master/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/tree/master/2022/11/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<h1>初次使用mrkdown练习语法</h1><h2>标题语法</h2><br>`sudo mc`<br><h2>有序列表</h2><ol><li>first</li><li>second</li><li>third</li><li>four</li></ol><h2>段落语法</h2><p>I really like using Markdown.</p><h2>换行语法</h2><p>This is the first line.<br><p>这是第一行。<br></>And this is the second line.</p><p>这是第二行</><p>#markText的使用</p><ol><li><p>n级标题<br>n个#代表n级标题</p><p>#hello</p></li><li><p>字体格式<br>标粗：CTRL+B<br>标斜：CTRL+I<br>下划线：CTRL+U<br> 高亮：CTRL+shift+H<br> 删除线：CTRL+D</p></li><li><p>插入代码代码<br>行内代码：CTRL+&#96;</p><p>代码块：&#96;&#96;&#96;</p></li><li><p>插入表格</p><p>CTRL+shift+T</p></li><li><p>插入图像</p><p>CTRL+shift+I</p></li><li><p>超链接</p><p>CTRL+L</p></li><li><p>列表</p><p>使用</p><ol><li><p>有序列表</p><p>backspace可以删除列表书写文本，写完一段之后再使用enter即可继承上一个列表</p><p>CTRL+G</p></li><li><p>无序列表</p><p>CTRL+H</p></li><li><p>任务列表</p><p>CTRL+alt+x</p></li></ol></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>先从使用编写博客的软件开始</p><h1>初次使用markdown练习语法</h1><h2>标题语法</h2><br>`sudo mc`<br><h2>有序列表</h2><ol><li>first</li><li>second</li><li>third</li><li>four</li></ol><h2>段落语法</h2><p>I really like using Markdown.</p><h2>换行语法</h2><p>This is the first line.<br><p>这是第一行。<br></>And this is the second line.</p><p>这是第二行</><p>#markText的使用</p><ol><li><p>n级标题<br>n个#代表n级标题</p><p>#hello</p></li><li><p>字体格式<br>标粗：CTRL+B<br>标斜：CTRL+I<br>下划线：CTRL+U<br> 高亮：CTRL+shift+H<br> 删除线：CTRL+D</p></li><li><p>插入代码代码<br>行内代码：CTRL+&#96;</p><p>代码块：&#96;&#96;&#96;</p></li><li><p>插入表格</p><p>CTRL+shift+T</p></li><li><p>插入图像</p><p>CTRL+shift+I</p></li><li><p>超链接</p><p>CTRL+L</p></li><li><p>列表</p><p>使用</p><ol><li><p>有序列表</p><p>backspace可以删除列表书写文本，写完一段之后再使用enter即可继承上一个列表</p><p>CTRL+G</p></li><li><p>无序列表</p><p>CTRL+H</p></li><li><p>任务列表</p><p>CTRL+alt+x</p></li></ol></li></ol>]]></content>
     
     
+    <categories>
+      
+      <category>我的第一篇博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Markdown、MarkText</tag>
+      
+    </tags>
     
   </entry>
   
