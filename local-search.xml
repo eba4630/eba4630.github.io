@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>一般过去将来时</title>
+    <link href="/2022/11/20/%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E6%97%B6/"/>
+    <url>/2022/11/20/%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E6%97%B6/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">表示从过去的某一时间来看将来要发生的动作或呈现的状态。<br></code></pre></td></tr></table></figure><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs applescript">基本结构：<br><br>过去将来时由would，was/were going <span class="hljs-keyword">to</span>，was/were <span class="hljs-keyword">to</span>，was/were <span class="hljs-keyword">about</span> <span class="hljs-keyword">to</span>等加动词原形构成，也可由was/were <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> point <span class="hljs-keyword">of</span>加动名词构成。<br></code></pre></td></tr></table></figure><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">结构：<br><br>同一般将来时不一样，把动词<span class="hljs-keyword">be变为过去式，把will，shall变为过去式。</span><br><span class="hljs-keyword"></span><br>例句：<br><br><span class="hljs-number">1</span>.I <span class="hljs-keyword">didn&#x27;t </span>know if he would come.=I <span class="hljs-keyword">didn&#x27;t </span>know if he was going to come.<br>我不知道他是否会来。<br><br><span class="hljs-keyword">She </span>was sixty-six. In three years，<span class="hljs-keyword">she </span>would <span class="hljs-keyword">be </span>sixty-nine.<br>她<span class="hljs-number">66</span>岁了。三年后，她是<span class="hljs-number">69</span>岁。<br><br><span class="hljs-keyword">She </span>told us that <span class="hljs-keyword">she </span>would not go with us if it rained.<br>她告诉我们，如果下雨的话，她就不和我们一起去了。<br><br>I <span class="hljs-keyword">didn&#x27;t </span>know how to do it. What would <span class="hljs-keyword">be </span>their ideas？<br>我不知道该怎么办，他们会有什么想法呢？<br><br><span class="hljs-number">2</span>.过去将来时常可用来表示过去习惯性的动作。此时，不管什么人称，一律用would。<br>过去将来时有时可带时间状语<br></code></pre></td></tr></table></figure><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">注意:<br><br><span class="hljs-number">1.</span>&quot;was/were going to +动原&quot;或&quot;was/were+动词不定式完成式&quot;可表示未能实现的过去将来时间的动作。<br><br><span class="hljs-number">2.</span>was/were about <span class="hljs-keyword">to</span> <span class="hljs-keyword">do</span>&quot;was/were about to do&quot;表示说话的瞬间就会发生的动作。<br><br><span class="hljs-number">3.</span>was/were <span class="hljs-keyword">on</span> the <span class="hljs-type">point</span> <span class="hljs-keyword">of</span> doing<br><br>提示&quot;be about to do&quot; 和 &quot;be on the point of doing&quot;结构一般不与表示将来的时间状语连用，但后面可以接<span class="hljs-keyword">when</span>引导的分句。<br><br>e.g. <br><br>I was about <span class="hljs-keyword">to</span> <span class="hljs-keyword">do</span> my homework <span class="hljs-keyword">when</span> my father arrived home.<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>英语</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>一般过去将来时</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>一般将来时</title>
     <link href="/2022/11/20/%E4%B8%80%E8%88%AC%E5%B0%86%E6%9D%A5%E6%97%B6/"/>
     <url>/2022/11/20/%E4%B8%80%E8%88%AC%E5%B0%86%E6%9D%A5%E6%97%B6/</url>
