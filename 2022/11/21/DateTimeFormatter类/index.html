@@ -24,7 +24,7 @@
 <meta property="og:description" content="jdk8在java.time.format包下的类。该类也是一个格式化类，其功能相当于DataFormat和SimpleDataFormat的合体，它不仅可以将日期、时间对象格式转化为字符串，还能将特定格式的字符串解析成日期、时间对象。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-21T07:58:45.000Z">
-<meta property="article:modified_time" content="2022-11-21T07:59:30.828Z">
+<meta property="article:modified_time" content="2022-11-21T08:02:52.034Z">
 <meta property="article:author" content="Eba">
 <meta property="article:tag" content="DateTimeFormatter">
 <meta name="twitter:card" content="summary_large_image">
@@ -303,21 +303,13 @@
               <div class="markdown-body">
                 
                 <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>DataTimeFormatter类是jdk8在java.time.format包下的类。该类也是一个格式化类。<br>其功能相当于DateFormat和SimpleDataFormat的合体，它不仅可以将日期、时间对象格式转化为字符串，还能将特定格式的字符串解析成日期、时间对象。</p>
-<h3 id="获取DateTimeFormatter对象的3种方式"><a href="#获取DateTimeFormatter对象的3种方式" class="headerlink" title="获取DateTimeFormatter对象的3种方式"></a>获取DateTimeFormatter对象的3种方式</h3><ol>
-<li>使用静态常量创建DateTimeFormatter实例。<br>静态常量有：BASIC_ISO_DATE、ISO_LOCAL_DATE、ISO_LOCAL_TIME等。</li>
-</ol>
+<h3 id="获取DateTimeFormatter对象的3种方式"><a href="#获取DateTimeFormatter对象的3种方式" class="headerlink" title="获取DateTimeFormatter对象的3种方式"></a>获取DateTimeFormatter对象的3种方式</h3><h4 id="1-使用静态常量创建DateTimeFormatter实例。"><a href="#1-使用静态常量创建DateTimeFormatter实例。" class="headerlink" title="1. 使用静态常量创建DateTimeFormatter实例。"></a>1. 使用静态常量创建DateTimeFormatter实例。</h4><p>静态常量有：BASIC_ISO_DATE、ISO_LOCAL_DATE、ISO_LOCAL_TIME等。</p>
 <figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">LocalDateTime <span class="hljs-type">date</span> = LocalDateTime.now();<br>//LocalDateTime类是接口实现类<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;使用常量创建DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf1 = DateTimeFormatter.ISO_DATE_TIME;<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(dtf1.format(<span class="hljs-type">date</span>));<br></code></pre></td></tr></table></figure>
 
 <p>调用format(TemporalAccessor temporal)方法执行格式化，<br>其中参数temporal是一个TemporalAccessor类型接口，它的实现类有LocalDate、LocalDateTime。</p>
-<ol start="2">
-<li>使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。</li>
-</ol>
-<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;使用MEDIUM类型风格的DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf2 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(dtf2.format(<span class="hljs-type">date</span>));<br></code></pre></td></tr></table></figure>
+<h4 id="2-使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。"><a href="#2-使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。" class="headerlink" title="2. 使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。"></a>2. 使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。</h4><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;使用MEDIUM类型风格的DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf2 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(dtf2.format(<span class="hljs-type">date</span>));<br></code></pre></td></tr></table></figure>
 
-<ol start="3">
-<li>根据格式模式字符串创建DateTimeFormatter格式器。</li>
-</ol>
-<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;根据模式字符串来创建DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(<span class="hljs-type">date</span>.format(dtf3));<br></code></pre></td></tr></table></figure>
+<h4 id="3-根据格式模式字符串创建DateTimeFormatter格式器。"><a href="#3-根据格式模式字符串创建DateTimeFormatter格式器。" class="headerlink" title="3. 根据格式模式字符串创建DateTimeFormatter格式器。"></a>3. 根据格式模式字符串创建DateTimeFormatter格式器。</h4><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;根据模式字符串来创建DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(<span class="hljs-type">date</span>.format(dtf3));<br></code></pre></td></tr></table></figure>
 
 <h3 id="解析字符串"><a href="#解析字符串" class="headerlink" title="解析字符串"></a>解析字符串</h3><p>将指定格式的字符串解析为日期、时间对象。</p>
 <p>使用DateTimeFormatter类提供的parse(CharSequence text, DateTimeFormatter formatter)方法来实现</p>
