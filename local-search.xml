@@ -4,6 +4,48 @@
   
   
   <entry>
+    <title>servlet表单提交</title>
+    <link href="/2022/11/22/servlet%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4/"/>
+    <url>/2022/11/22/servlet%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4/</url>
+    
+    <content type="html"><![CDATA[<h3 id="创建一个login-html"><a href="#创建一个login-html" class="headerlink" title="创建一个login.html"></a>创建一个login.html</h3><h3 id="创建一个servlet用来处理登录请求"><a href="#创建一个servlet用来处理登录请求" class="headerlink" title="创建一个servlet用来处理登录请求"></a>创建一个servlet用来处理登录请求</h3><h3 id="request获取数据"><a href="#request获取数据" class="headerlink" title="request获取数据"></a>request获取数据</h3><p><code>String username = request.getParameter(&quot;username&quot;);</code></p><h3 id="getWriter（）创建输出流"><a href="#getWriter（）创建输出流" class="headerlink" title="getWriter（）创建输出流"></a>getWriter（）创建输出流</h3><p><code>PrintWriter out = response.getWriter();</code></p><h3 id="判断表单内容是否正确，输出对应信息"><a href="#判断表单内容是否正确，输出对应信息" class="headerlink" title="判断表单内容是否正确，输出对应信息"></a>判断表单内容是否正确，输出对应信息</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">if</span>(<span class="hljs-string">&quot;admin&quot;</span>.<span class="hljs-keyword">equals</span>(username) &amp;&amp; <span class="hljs-string">&quot;123456&quot;</span>.<span class="hljs-keyword">equals</span>(password)) &#123;<br><span class="hljs-comment">//这里的变量写在前面可以避面空指针异常</span><br><span class="hljs-keyword">out</span>.println(<span class="hljs-string">&quot;&lt;h1&gt;恭喜登陆成功！&lt;/h1&gt;&quot;</span>);<br>&#125;<span class="hljs-keyword">else</span> &#123;<br><span class="hljs-keyword">out</span>.print(<span class="hljs-string">&quot;&lt;h1&gt;账户或者密码错误，登陆失败!&lt;/h1&gt;&quot;</span>);<br>&#125;<br></code></pre></td></tr></table></figure><h3 id="启动服务器登录。输入账号密码后发现乱码"><a href="#启动服务器登录。输入账号密码后发现乱码" class="headerlink" title="启动服务器登录。输入账号密码后发现乱码"></a>启动服务器登录。输入账号密码后发现乱码</h3><p>response.setContentType(“text&#x2F;html;charset&#x3D;UTF-8”);</p><h3 id="调试启动服务器"><a href="#调试启动服务器" class="headerlink" title="调试启动服务器"></a>调试启动服务器</h3><h4 id="1-在从客户端获取password数据那一行代码添加断点。"><a href="#1-在从客户端获取password数据那一行代码添加断点。" class="headerlink" title="1. 在从客户端获取password数据那一行代码添加断点。"></a>1. 在从客户端获取password数据那一行代码添加断点。</h4><h4 id="2-表单输入中文，获取的username显示乱码"><a href="#2-表单输入中文，获取的username显示乱码" class="headerlink" title="2. 表单输入中文，获取的username显示乱码"></a>2. 表单输入中文，获取的username显示乱码</h4><p><code>username = new String(username.getBytes(&quot;ISO-8859-1&quot;), &quot;UTF-8&quot;);</code></p><h4 id="3-username转换编码为utf-8，"><a href="#3-username转换编码为utf-8，" class="headerlink" title="3. username转换编码为utf-8，"></a>3. username转换编码为utf-8，</h4><p>ISO-8859-1是中文编码</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>String类</title>
+    <link href="/2022/11/22/String%E7%B1%BB/"/>
+    <url>/2022/11/22/String%E7%B1%BB/</url>
+    
+    <content type="html"><![CDATA[<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><h4 id="1-使用字符串常量初始化一个字符串对象"><a href="#1-使用字符串常量初始化一个字符串对象" class="headerlink" title="1. 使用字符串常量初始化一个字符串对象"></a>1. 使用字符串常量初始化一个字符串对象</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs dart"><span class="hljs-comment">//格式</span><br><span class="hljs-built_in">String</span> 变量名 = 字符串;<br><br><span class="hljs-comment">//初始化为空</span><br><span class="hljs-built_in">String</span> str1 = <span class="hljs-keyword">null</span>;<br><br><span class="hljs-comment">//初始化为空字符串</span><br><span class="hljs-built_in">String</span> str2 = <span class="hljs-string">&quot;&quot;</span>;<br><br><span class="hljs-comment">//初始化为abc，其中的abc为字符串常量</span><br><span class="hljs-built_in">String</span> str3 = <span class="hljs-string">&quot;abc&quot;</span>;<br></code></pre></td></tr></table></figure><h4 id="2-使用String类的构造方法来初始化字符串对象"><a href="#2-使用String类的构造方法来初始化字符串对象" class="headerlink" title="2. 使用String类的构造方法来初始化字符串对象"></a>2. 使用String类的构造方法来初始化字符串对象</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs dart"><span class="hljs-comment">//格式</span><br><span class="hljs-built_in">String</span> 变量名 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">String</span>(字符串);<br></code></pre></td></tr></table></figure><p>以下有三种比较常见的构造方法</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><span class="hljs-function"><span class="hljs-title">String</span><span class="hljs-params">()</span></span><span class="hljs-comment">//初始化值为空</span><br><br><span class="hljs-function"><span class="hljs-title">String</span><span class="hljs-params">(String value)</span></span><span class="hljs-comment">//指定一个字符串</span><br><br><span class="hljs-function"><span class="hljs-title">String</span><span class="hljs-params">(char[] value)</span></span><span class="hljs-comment">//参数为字符串数组</span><br></code></pre></td></tr></table></figure><h3 id="连接字符串"><a href="#连接字符串" class="headerlink" title="连接字符串"></a>连接字符串</h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>java</category>
+      
+      <category>java常用类</category>
+      
+      <category>String类和StringBuffer类</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>String类</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>DateTimeFormatter类</title>
     <link href="/2022/11/21/DateTimeFormatter%E7%B1%BB/"/>
     <url>/2022/11/21/DateTimeFormatter%E7%B1%BB/</url>

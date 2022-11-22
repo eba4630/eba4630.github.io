@@ -16,22 +16,21 @@
   <meta name="author" content="Eba">
   <meta name="keywords" content="">
   
-    <meta name="description" content="jdk8在java.time.format包下的类。该类也是一个格式化类，其功能相当于DataFormat和SimpleDataFormat的合体，它不仅可以将日期、时间对象格式转化为字符串，还能将特定格式的字符串解析成日期、时间对象。">
+    <meta name="description" content="创建一个login.html创建一个servlet用来处理登录请求request获取数据String username &#x3D; request.getParameter(&quot;username&quot;); getWriter（）创建输出流PrintWriter out &#x3D; response.getWriter(); 判断表单内容是否正确，输出对应信息123456if(&quot;admin&amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="DateTimeFormatter类">
-<meta property="og:url" content="http://eba4630.github.io/2022/11/21/DateTimeFormatter%E7%B1%BB/index.html">
+<meta property="og:title" content="servlet表单提交">
+<meta property="og:url" content="http://eba4630.github.io/2022/11/22/servlet%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4/index.html">
 <meta property="og:site_name" content="Eba">
-<meta property="og:description" content="jdk8在java.time.format包下的类。该类也是一个格式化类，其功能相当于DataFormat和SimpleDataFormat的合体，它不仅可以将日期、时间对象格式转化为字符串，还能将特定格式的字符串解析成日期、时间对象。">
+<meta property="og:description" content="创建一个login.html创建一个servlet用来处理登录请求request获取数据String username &#x3D; request.getParameter(&quot;username&quot;); getWriter（）创建输出流PrintWriter out &#x3D; response.getWriter(); 判断表单内容是否正确，输出对应信息123456if(&quot;admin&amp;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-11-21T07:58:45.000Z">
-<meta property="article:modified_time" content="2022-11-21T08:02:52.034Z">
+<meta property="article:published_time" content="2022-11-22T08:53:34.000Z">
+<meta property="article:modified_time" content="2022-11-22T10:03:26.712Z">
 <meta property="article:author" content="Eba">
-<meta property="article:tag" content="DateTimeFormatter">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>DateTimeFormatter类 - Eba</title>
+  <title>servlet表单提交 - Eba</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -225,7 +224,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="DateTimeFormatter类"></span>
+            <span id="subtitle" data-typed-text="servlet表单提交"></span>
           
         </div>
 
@@ -236,8 +235,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-11-21 15:58" pubdate>
-          2022年11月21日 下午
+        <time datetime="2022-11-22 16:53" pubdate>
+          2022年11月22日 下午
         </time>
       </span>
     
@@ -248,7 +247,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          677 字
         
       </span>
     
@@ -259,7 +258,7 @@
         
         
         
-          14 分钟
+          6 分钟
         
       </span>
     
@@ -297,23 +296,18 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">DateTimeFormatter类</h1>
+            <h1 style="display: none">servlet表单提交</h1>
             
             
               <div class="markdown-body">
                 
-                <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>DataTimeFormatter类是jdk8在java.time.format包下的类。该类也是一个格式化类。<br>其功能相当于DateFormat和SimpleDataFormat的合体，它不仅可以将日期、时间对象格式转化为字符串，还能将特定格式的字符串解析成日期、时间对象。</p>
-<h3 id="获取DateTimeFormatter对象的3种方式"><a href="#获取DateTimeFormatter对象的3种方式" class="headerlink" title="获取DateTimeFormatter对象的3种方式"></a>获取DateTimeFormatter对象的3种方式</h3><h4 id="1-使用静态常量创建DateTimeFormatter实例。"><a href="#1-使用静态常量创建DateTimeFormatter实例。" class="headerlink" title="1. 使用静态常量创建DateTimeFormatter实例。"></a>1. 使用静态常量创建DateTimeFormatter实例。</h4><p>静态常量有：BASIC_ISO_DATE、ISO_LOCAL_DATE、ISO_LOCAL_TIME等。</p>
-<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">LocalDateTime <span class="hljs-type">date</span> = LocalDateTime.now();<br>//LocalDateTime类是接口实现类<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;使用常量创建DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf1 = DateTimeFormatter.ISO_DATE_TIME;<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(dtf1.format(<span class="hljs-type">date</span>));<br></code></pre></td></tr></table></figure>
+                <h3 id="创建一个login-html"><a href="#创建一个login-html" class="headerlink" title="创建一个login.html"></a>创建一个login.html</h3><h3 id="创建一个servlet用来处理登录请求"><a href="#创建一个servlet用来处理登录请求" class="headerlink" title="创建一个servlet用来处理登录请求"></a>创建一个servlet用来处理登录请求</h3><h3 id="request获取数据"><a href="#request获取数据" class="headerlink" title="request获取数据"></a>request获取数据</h3><p><code>String username = request.getParameter(&quot;username&quot;);</code></p>
+<h3 id="getWriter（）创建输出流"><a href="#getWriter（）创建输出流" class="headerlink" title="getWriter（）创建输出流"></a>getWriter（）创建输出流</h3><p><code>PrintWriter out = response.getWriter();</code></p>
+<h3 id="判断表单内容是否正确，输出对应信息"><a href="#判断表单内容是否正确，输出对应信息" class="headerlink" title="判断表单内容是否正确，输出对应信息"></a>判断表单内容是否正确，输出对应信息</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">if</span>(<span class="hljs-string">&quot;admin&quot;</span>.<span class="hljs-keyword">equals</span>(username) &amp;&amp; <span class="hljs-string">&quot;123456&quot;</span>.<span class="hljs-keyword">equals</span>(password)) &#123;<br><span class="hljs-comment">//这里的变量写在前面可以避面空指针异常</span><br>			<span class="hljs-keyword">out</span>.println(<span class="hljs-string">&quot;&lt;h1&gt;恭喜登陆成功！&lt;/h1&gt;&quot;</span>);<br>		&#125;<span class="hljs-keyword">else</span> &#123;<br>			<span class="hljs-keyword">out</span>.print(<span class="hljs-string">&quot;&lt;h1&gt;账户或者密码错误，登陆失败!&lt;/h1&gt;&quot;</span>);<br>		&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="启动服务器登录。输入账号密码后发现乱码"><a href="#启动服务器登录。输入账号密码后发现乱码" class="headerlink" title="启动服务器登录。输入账号密码后发现乱码"></a>启动服务器登录。输入账号密码后发现乱码</h3><p>response.setContentType(“text&#x2F;html;charset&#x3D;UTF-8”);</p>
+<h3 id="调试启动服务器"><a href="#调试启动服务器" class="headerlink" title="调试启动服务器"></a>调试启动服务器</h3><h4 id="1-在从客户端获取password数据那一行代码添加断点。"><a href="#1-在从客户端获取password数据那一行代码添加断点。" class="headerlink" title="1. 在从客户端获取password数据那一行代码添加断点。"></a>1. 在从客户端获取password数据那一行代码添加断点。</h4><h4 id="2-表单输入中文，获取的username显示乱码"><a href="#2-表单输入中文，获取的username显示乱码" class="headerlink" title="2. 表单输入中文，获取的username显示乱码"></a>2. 表单输入中文，获取的username显示乱码</h4><p><code>username = new String(username.getBytes(&quot;ISO-8859-1&quot;), &quot;UTF-8&quot;);</code></p>
+<h4 id="3-username转换编码为utf-8，"><a href="#3-username转换编码为utf-8，" class="headerlink" title="3. username转换编码为utf-8，"></a>3. username转换编码为utf-8，</h4><p>ISO-8859-1是中文编码</p>
 
-<p>调用format(TemporalAccessor temporal)方法执行格式化，<br>其中参数temporal是一个TemporalAccessor类型接口，它的实现类有LocalDate、LocalDateTime。</p>
-<h4 id="2-使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。"><a href="#2-使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。" class="headerlink" title="2. 使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。"></a>2. 使用不同风格的枚举值来创建DateTimeFormatter格式器。在FormatStytle类中定义了FULL、LONG、MEDIUM和SHORT四个枚举值，它们表示日期和时间的不同风格。</h4><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;使用MEDIUM类型风格的DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf2 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(dtf2.format(<span class="hljs-type">date</span>));<br></code></pre></td></tr></table></figure>
-
-<h4 id="3-根据格式模式字符串创建DateTimeFormatter格式器。"><a href="#3-根据格式模式字符串创建DateTimeFormatter格式器。" class="headerlink" title="3. 根据格式模式字符串创建DateTimeFormatter格式器。"></a>3. 根据格式模式字符串创建DateTimeFormatter格式器。</h4><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(&quot;根据模式字符串来创建DateTimeFormatter:&quot;);<br><br>DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;);<br><br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(<span class="hljs-type">date</span>.format(dtf3));<br></code></pre></td></tr></table></figure>
-
-<h3 id="解析字符串"><a href="#解析字符串" class="headerlink" title="解析字符串"></a>解析字符串</h3><p>将指定格式的字符串解析为日期、时间对象。</p>
-<p>使用DateTimeFormatter类提供的parse(CharSequence text, DateTimeFormatter formatter)方法来实现</p>
-<figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">String str1 = <span class="hljs-string">&quot;2019-06-01 07:01:59&quot;</span>;<br>String str2 = <span class="hljs-string">&quot;2019年06月01日 07时01分59秒&quot;</span>;<br><br>DateTimeFormatter dtf4 = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">DateTimeFormatter</span>.</span></span><span class="hljs-keyword">of</span><span class="hljs-constructor">Pattern(<span class="hljs-string">&quot;yyyy-MM-dd HH:mm:ss&quot;</span>)</span>;<br>DateTimeFormatter dtf5 = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">DateTimeFormatter</span>.</span></span><span class="hljs-keyword">of</span><span class="hljs-constructor">Pattern(<span class="hljs-string">&quot;yyyy年MM月dd日 HH时mm分ss秒&quot;</span>)</span>;<br><br>LocalDateTime localDateTime1 = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">LocalDateTime</span>.</span></span>parse(str1, dtf4);<br>LocalDateTime localDateTime2 = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">LocalDateTime</span>.</span></span>parse(str2, dtf5);<br><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">System</span>.</span></span>out.println(localDateTime1);<br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">System</span>.</span></span>out.println(localDateTime2);<br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -321,48 +315,6 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/java/" class="category-chain-item">java</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/java/java%E5%B8%B8%E7%94%A8%E7%B1%BB/" class="category-chain-item">java常用类</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/java/java%E5%B8%B8%E7%94%A8%E7%B1%BB/%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%B1%BB/" class="category-chain-item">格式化类</a>
-  
-  
-
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/DateTimeFormatter/">#DateTimeFormatter</a>
-      
-    </div>
   
 </div>
 
@@ -372,15 +324,15 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>DateTimeFormatter类</div>
-      <div>http://eba4630.github.io/2022/11/21/DateTimeFormatter类/</div>
+      <div>servlet表单提交</div>
+      <div>http://eba4630.github.io/2022/11/22/servlet表单提交/</div>
     </div>
     <div class="license-meta">
       
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年11月21日</div>
+          <div>2022年11月22日</div>
         </div>
       
       
@@ -412,18 +364,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/11/22/String%E7%B1%BB/" title="String类">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">String类</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/11/20/%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E6%97%B6/" title="一般过去将来时">
-                        <span class="hidden-mobile">一般过去将来时</span>
+                      <a href="/2022/11/22/String%E7%B1%BB/" title="String类">
+                        <span class="hidden-mobile">String类</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
